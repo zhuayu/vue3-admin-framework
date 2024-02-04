@@ -1,0 +1,21 @@
+@import './base.css';
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mr-8 {
+  margin-right: 8px;
+}
+
+.container-1080 {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+#nprogress .bar {
+  background: #35b558 !important;
+}
