@@ -33,7 +33,7 @@ const activeIndex = ref(route.name)
           <template v-for="route in navRoutes">
             <el-sub-menu v-if="route.children.length" :index="route.name" :key="route.path">
               <template #title>
-                <el-icon><RotateLeftOutlined /></el-icon>
+                <svg-icon v-if="route.meta.nav?.icon" :name="route.meta.nav.icon" width="24px" height="18px" style="margin-right: 5px;"></svg-icon>
                 <span>{{ route.meta.nav.title }}</span>
               </template>
               <el-menu-item-group>

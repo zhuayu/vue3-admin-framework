@@ -15,7 +15,7 @@ export default [
     meta: {
       permission: 'role-index',
       nav: {
-        icon: 'el-icon-goods',
+        icon: 'icon-setting',
         title: '权限设置'
       },
       breadcrumb: {
@@ -30,7 +30,6 @@ export default [
         meta: {
           permission: 'role-index',
           nav: {
-            icon: 'el-icon-goods',
             title: '角色列表'
           },
           breadcrumb: {
@@ -55,7 +54,6 @@ export default [
         meta: {
           permission: 'manager-index',
           nav: {
-            icon: 'el-icon-goods',
             title: '管理员'
           },
           breadcrumb: {

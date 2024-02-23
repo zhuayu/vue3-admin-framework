@@ -17,7 +17,7 @@ export default [
     meta: {
       permission: 'article-index',
       nav: {
-        icon: 'el-icon-goods',
+        icon: 'icon-file',
         title: '文章管理'
       },
       breadcrumb: {
@@ -32,7 +32,6 @@ export default [
         meta: {
           permission: 'article-index',
           nav: {
-            icon: 'el-icon-goods',
             title: '文章列表'
           },
           breadcrumb: {
